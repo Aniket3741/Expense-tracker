@@ -1,0 +1,42 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#expenseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#expenseList li {
+    margin-bottom: 5px;
+}
+
+#totalExpense {
+    margin-top: 10px;
+    font-weight: bold;
+}
